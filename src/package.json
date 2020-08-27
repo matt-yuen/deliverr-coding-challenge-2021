@@ -2,5 +2,12 @@
   "name": "deliverr-coding-challenge-2021",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.2"
+  }
 }
