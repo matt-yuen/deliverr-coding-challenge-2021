@@ -1,7 +1,5 @@
 const expect = require('chai').expect;
-const InventoryAllocator = require('../inventory-allocator');
-
-const inventoryAllocator = new InventoryAllocator()
+const inventoryAllocator = require('../inventory-allocator');
 
 const warehouseA = { name: "A", inventory: { apple: 5, orange: 5 } };
 const warehouseB = { name: "B", inventory: { banana: 6, orange: 3 } };
